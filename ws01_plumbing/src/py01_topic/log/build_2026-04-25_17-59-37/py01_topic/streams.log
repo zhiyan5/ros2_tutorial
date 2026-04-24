@@ -1,0 +1,37 @@
+[0.534s] Invoking command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic': PYTHONPATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/py01_topic build --build-base /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build install --record /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.739s] running egg_info
+[0.739s] creating build/py01_topic/py01_topic.egg-info
+[0.739s] writing build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.739s] writing dependency_links to build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.739s] writing entry points to build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.739s] writing requirements to build/py01_topic/py01_topic.egg-info/requires.txt
+[0.740s] writing top-level names to build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.740s] writing manifest file 'build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.741s] reading manifest file 'build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.742s] writing manifest file 'build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.742s] running build
+[0.742s] running build_py
+[0.742s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build
+[0.742s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build/lib
+[0.742s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build/lib/py01_topic
+[0.742s] copying py01_topic/demo01_talker_str_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build/lib/py01_topic
+[0.742s] copying py01_topic/__init__.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build/lib/py01_topic
+[0.742s] running install
+[0.742s] running install_lib
+[0.743s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.743s] copying /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.743s] copying /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.743s] byte-compiling /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-310.pyc
+[0.743s] byte-compiling /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages/py01_topic/__init__.py to __init__.cpython-310.pyc
+[0.744s] running install_data
+[0.744s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/share/ament_index
+[0.744s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/share/ament_index/resource_index
+[0.744s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/share/ament_index/resource_index/packages
+[0.744s] copying resource/py01_topic -> /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/share/ament_index/resource_index/packages
+[0.744s] copying package.xml -> /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/share/py01_topic
+[0.744s] running install_egg_info
+[0.746s] Copying build/py01_topic/py01_topic.egg-info to /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.746s] running install_scripts
+[0.772s] Installing demo01_talker_str_py script to /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/py01_topic
+[0.772s] writing list of installed files to '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/install.log'
+[0.788s] Invoked command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic' returned '0': PYTHONPATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/py01_topic build --build-base /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/build install --record /home/zhiyan/ros2_tutorial/ws01_plumbing/src/py01_topic/build/py01_topic/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.377s] Invoking command in '/home/zhiyan/ros2_tutorial/ws00_helloworld/src/pkg02_helloworld_py': PYTHONPATH=/home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/build install --record /home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/install.log --single-version-externally-managed install_data
+[0.509s] running egg_info
+[0.509s] writing ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/dependency_links.txt
+[0.510s] writing entry points to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/entry_points.txt
+[0.510s] writing requirements to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/requires.txt
+[0.510s] writing top-level names to ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/top_level.txt
+[0.511s] reading manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.511s] writing manifest file '../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info/SOURCES.txt'
+[0.511s] running build
+[0.511s] running build_py
+[0.511s] running install
+[0.512s] running install_lib
+[0.512s] running install_data
+[0.512s] running install_egg_info
+[0.513s] removing '/home/zhiyan/ros2_tutorial/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.514s] Copying ../../build/pkg02_helloworld_py/pkg02_helloworld_py.egg-info to /home/zhiyan/ros2_tutorial/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages/pkg02_helloworld_py-0.0.0-py3.10.egg-info
+[0.514s] running install_scripts
+[0.527s] Installing helloworld script to /home/zhiyan/ros2_tutorial/ws00_helloworld/install/pkg02_helloworld_py/lib/pkg02_helloworld_py
+[0.527s] writing list of installed files to '/home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/install.log'
+[0.542s] Invoked command in '/home/zhiyan/ros2_tutorial/ws00_helloworld/src/pkg02_helloworld_py' returned '0': PYTHONPATH=/home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg02_helloworld_py build --build-base /home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/build install --record /home/zhiyan/ros2_tutorial/ws00_helloworld/build/pkg02_helloworld_py/install.log --single-version-externally-managed install_data
