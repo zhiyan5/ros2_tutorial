@@ -1,0 +1,40 @@
+[0.634s] Invoking command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py02_servise': AMENT_PREFIX_PATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo PYTHONPATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_servise build --build-base /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build install --record /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/install.log --single-version-externally-managed install_data
+[0.838s] running egg_info
+[0.839s] creating ../../build/py02_servise/py02_servise.egg-info
+[0.839s] writing ../../build/py02_servise/py02_servise.egg-info/PKG-INFO
+[0.839s] writing dependency_links to ../../build/py02_servise/py02_servise.egg-info/dependency_links.txt
+[0.839s] writing entry points to ../../build/py02_servise/py02_servise.egg-info/entry_points.txt
+[0.839s] writing requirements to ../../build/py02_servise/py02_servise.egg-info/requires.txt
+[0.839s] writing top-level names to ../../build/py02_servise/py02_servise.egg-info/top_level.txt
+[0.839s] writing manifest file '../../build/py02_servise/py02_servise.egg-info/SOURCES.txt'
+[0.841s] reading manifest file '../../build/py02_servise/py02_servise.egg-info/SOURCES.txt'
+[0.841s] writing manifest file '../../build/py02_servise/py02_servise.egg-info/SOURCES.txt'
+[0.841s] running build
+[0.841s] running build_py
+[0.841s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build
+[0.841s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib
+[0.841s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise
+[0.842s] copying py02_servise/demo02_client_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise
+[0.842s] copying py02_servise/demo01_server_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise
+[0.842s] copying py02_servise/__init__.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise
+[0.842s] running install
+[0.842s] running install_lib
+[0.843s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise
+[0.843s] copying /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise/demo02_client_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise
+[0.843s] copying /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise/demo01_server_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise
+[0.843s] copying /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise/__init__.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise
+[0.843s] byte-compiling /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise/demo02_client_py.py to demo02_client_py.cpython-310.pyc
+[0.843s] byte-compiling /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise/demo01_server_py.py to demo01_server_py.cpython-310.pyc
+[0.843s] byte-compiling /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise/__init__.py to __init__.cpython-310.pyc
+[0.843s] running install_data
+[0.843s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/share/ament_index
+[0.843s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/share/ament_index/resource_index
+[0.843s] creating /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/share/ament_index/resource_index/packages
+[0.843s] copying resource/py02_servise -> /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/share/ament_index/resource_index/packages
+[0.843s] copying package.xml -> /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/share/py02_servise
+[0.843s] running install_egg_info
+[0.846s] Copying ../../build/py02_servise/py02_servise.egg-info to /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise-0.0.0-py3.10.egg-info
+[0.846s] running install_scripts
+[0.872s] Installing demo01_server_py script to /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/py02_servise
+[0.872s] writing list of installed files to '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/install.log'
+[0.887s] Invoked command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py02_servise' returned '0': AMENT_PREFIX_PATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo PYTHONPATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_servise build --build-base /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build install --record /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/install.log --single-version-externally-managed install_data

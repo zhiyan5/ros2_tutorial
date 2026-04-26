@@ -1,7 +1,10 @@
 {
 
     "python.autoComplete.extraPaths": [
-        ""
+        "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/"
     ]
 
 }

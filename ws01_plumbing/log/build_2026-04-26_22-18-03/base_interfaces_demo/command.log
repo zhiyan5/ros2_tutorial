@@ -1,0 +1,2 @@
+Invoking command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo -- -j20 -l20
+Invoked command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo -- -j20 -l20

@@ -1,0 +1,25 @@
+[0.579s] Invoking command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py02_servise': PYTHONPATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_servise build --build-base /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build install --record /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/install.log --single-version-externally-managed install_data
+[0.783s] running egg_info
+[0.783s] writing ../../build/py02_servise/py02_servise.egg-info/PKG-INFO
+[0.784s] writing dependency_links to ../../build/py02_servise/py02_servise.egg-info/dependency_links.txt
+[0.784s] writing entry points to ../../build/py02_servise/py02_servise.egg-info/entry_points.txt
+[0.784s] writing requirements to ../../build/py02_servise/py02_servise.egg-info/requires.txt
+[0.784s] writing top-level names to ../../build/py02_servise/py02_servise.egg-info/top_level.txt
+[0.785s] reading manifest file '../../build/py02_servise/py02_servise.egg-info/SOURCES.txt'
+[0.786s] writing manifest file '../../build/py02_servise/py02_servise.egg-info/SOURCES.txt'
+[0.786s] running build
+[0.786s] running build_py
+[0.786s] copying py02_servise/demo02_client_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise
+[0.786s] running install
+[0.786s] running install_lib
+[0.787s] copying /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build/lib/py02_servise/demo02_client_py.py -> /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise
+[0.788s] byte-compiling /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise/demo02_client_py.py to demo02_client_py.cpython-310.pyc
+[0.788s] running install_data
+[0.788s] running install_egg_info
+[0.790s] removing '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise-0.0.0-py3.10.egg-info' (and everything under it)
+[0.790s] Copying ../../build/py02_servise/py02_servise.egg-info to /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages/py02_servise-0.0.0-py3.10.egg-info
+[0.791s] running install_scripts
+[0.816s] Installing demo01_server_py script to /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/py02_servise
+[0.816s] Installing demo02_client_py script to /home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/py02_servise
+[0.816s] writing list of installed files to '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/install.log'
+[0.832s] Invoked command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/src/py02_servise' returned '0': PYTHONPATH=/home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhiyan/ros2_tutorial/ws01_plumbing/install/py02_servise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_servise build --build-base /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/build install --record /home/zhiyan/ros2_tutorial/ws01_plumbing/build/py02_servise/install.log --single-version-externally-managed install_data

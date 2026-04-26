@@ -27,10 +27,10 @@ class Talker(Node):
         self.timer = self.create_timer(1.0, self.on_timer)
 
     def on_timer(self):
-        message = String()
-        message.data = "hello world(python)!" + str(self.count)
-        self.publisher.publish(message)
-        self.get_logger().info(f"发布的数据: {message.data}")
+        msg = String()
+        msg.data = "hello world(python)!" + str(self.count)
+        self.publisher.publish(msg)
+        self.get_logger().info(f"发布的数据: {msg.data}")
         self.count += 1
 
 def main():

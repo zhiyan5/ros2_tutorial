@@ -1,0 +1,274 @@
+[0.013s] Invoking command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo -- -j20 -l20
+[0.042s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.811s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.812s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.834s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.834s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.834s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.834s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.851s] -- Found PythonExtra: .so  
+[0.914s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.925s] -- Added test 'lint_cmake' to check CMake code style
+[0.926s] -- Added test 'xmllint' to check XML markup files
+[0.928s] -- Configuring done
+[0.948s] -- Generating done
+[0.954s] -- Build files have been written to: /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo
+[0.975s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.984s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.984s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.990s] [  7%] Built target ament_cmake_python_copy_base_interfaces_demo
+[1.210s] [  7%] Built target base_interfaces_demo__rs
+[1.212s] running egg_info
+[1.212s] creating base_interfaces_demo.egg-info
+[1.213s] writing base_interfaces_demo.egg-info/PKG-INFO
+[1.213s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[1.213s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[1.213s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.216s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.216s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.232s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o[0m
+[1.234s] [ 12%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addlnts__functions.c.o[0m
+[1.234s] [ 12%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[1.259s] [ 12%] Built target base_interfaces_demo__cpp
+[1.265s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.266s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.266s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.295s] [ 22%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[1.327s] [ 22%] Built target base_interfaces_demo__rosidl_generator_c
+[1.334s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.336s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.336s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.479s] [ 32%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o[0m
+[1.481s] [ 35%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/addlnts__type_support.cpp.o[0m
+[1.487s] [ 37%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[1.489s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/addlnts__type_support.cpp.o[0m
+[1.498s] [ 42%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/addlnts__type_support.cpp.o[0m
+[1.500s] [ 45%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[1.535s] [ 47%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/addlnts__type_support.cpp.o[0m
+[1.535s] [ 50%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[1.555s] [ 52%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/addlnts__type_support.c.o[0m
+[1.556s] [ 55%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o[0m
+[1.562s] [ 57%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[1.584s] [ 60%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[1.596s] [ 60%] Built target base_interfaces_demo__rosidl_typesupport_c
+[1.612s] [ 60%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[1.630s] [ 62%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/addlnts__type_support_c.cpp.o[0m
+[1.631s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o[0m
+[1.667s] [ 67%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[1.703s] [ 67%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[1.780s] [ 70%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.799s] [ 72%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[1.832s] [ 72%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[1.834s] [ 72%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[1.862s] [ 75%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[1.913s] [ 75%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[1.930s] [ 75%] Built target base_interfaces_demo
+[1.955s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.256s] [ 77%] Built target base_interfaces_demo__py
+[2.273s] [ 80%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o[0m
+[2.273s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_addlnts_s.c.o[0m
+[2.366s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[2.414s] [ 85%] Built target base_interfaces_demo__rosidl_generator_py
+[2.438s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.438s] [ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[2.438s] [ 92%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.506s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.507s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.517s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.530s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[2.533s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[2.544s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[2.553s] Invoked command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo -- -j20 -l20
+[2.564s] Invoking command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo
+[2.570s] -- Install configuration: ""
+[2.570s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[2.570s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.570s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.570s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/addlnts.h
+[2.571s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__functions.c
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__type_support.h
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__struct.h
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__functions.h
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[2.572s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[2.572s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[2.572s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.572s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.572s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.573s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[2.573s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.573s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.573s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.573s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__rosidl_typesupport_fastrtps_c.h
+[2.573s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[2.573s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[2.573s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.573s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.573s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.573s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[2.573s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[2.574s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.574s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.574s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.574s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__type_support.c
+[2.574s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__rosidl_typesupport_introspection_c.h
+[2.574s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[2.574s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[2.574s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[2.574s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[2.574s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.574s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.574s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[2.575s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.575s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__struct.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__type_support.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__traits.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__builder.hpp
+[2.575s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/addlnts.hpp
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.576s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[2.576s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[2.576s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.576s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[2.576s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__rosidl_typesupport_fastrtps_cpp.hpp
+[2.576s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[2.576s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[2.576s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[2.577s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[2.577s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[2.577s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__rosidl_typesupport_introspection_cpp.hpp
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addlnts__type_support.cpp
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[2.577s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[2.577s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[2.577s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_addlnts_s.c
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_addlnts.py
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[2.578s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.602s] Listing '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[2.602s] Compiling '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[2.602s] Listing '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[2.602s] Compiling '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...
+[2.602s] Compiling '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...
+[2.602s] Listing '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...
+[2.602s] Compiling '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...
+[2.602s] Compiling '/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_addlnts.py'...
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.606s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.606s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.606s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[2.606s] -- Set runtime path of "/home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rust_packages/base_interfaces_demo
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust
+[2.606s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/msg.rs
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/srv.rs
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/msg
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/msg/rmw.rs
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/srv
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/srv/rmw.rs
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/src/lib.rs
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/build.rs
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/rust/Cargo.toml
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addlnts.idl
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addlnts.srv
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addlnts_Request.msg
+[2.607s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addlnts_Response.msg
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[2.608s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[2.608s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[2.608s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[2.608s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[2.608s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[2.608s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[2.609s] -- Up-to-date: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[2.609s] -- Installing: /home/zhiyan/ros2_tutorial/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[2.611s] Invoked command in '/home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zhiyan/ros2_tutorial/ws01_plumbing/build/base_interfaces_demo

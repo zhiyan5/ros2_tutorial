@@ -25,7 +25,7 @@ class TalkerStu(Node):
         self.publisher = self.create_publisher(Student, "chatter_stu", 10)
 
         # 3-2.创建定时器
-        self.timer = self.create_timer(0.5, self.on_timer)
+        self.timer = self.create_timer(1.0, self.on_timer)
 
     def on_timer(self):
         # 3-3.组织消息并发布

@@ -1,47 +1,45 @@
 """
-需求：以固定频率发布学生信息
-步骤:
+需求：订阅发布方发布的消息，并在终端输出
+流程：
     1.导包
     2.初始化 ROS2 客户端
-    3.定义节点类
-        3-1.创建消息发布方
-        3-2.创建定时器
-        3-3.组织消息并发布学生信息
+    3.自定义节点类
+        3-1.创建订阅方
+        3-2.解析并输出数据
     4.调用spin函数,并传入节点对象
-    5.释放资源
+    5.资源释放
 """
 
 import rclpy
 from rclpy.node import Node
 from base_interfaces_demo.msg import Student
 
-# 3.定义节点类
-class TalkerStu(Node):
+# 3.自定义节点类
+class ListenerStu(Node):
     def __init__(self):
-        super().__init__("talker_stu_node_py")
-        self.get_logger().info("发布方创建了...")
+        super().__init__("listener_stu_node_py")
+        self.get_logger().info("订阅方创建了...")
 
-        # 3-1.创建消息发布方
-        self.publisher = self.create_publisher(Student, "chatter_stu", 10)
+        # 3-1.创建订阅方
+        self.subscription = self.create_subscription(
+            Student, "chatter_stu", self.do_cb, 10
+        )
 
-        # 3-2.创建定时器
-        self.timer = self.create_timer(0.5, self.on_timer)
+    def do_cb(self, stu):
+        """
+        回调函数 \n
+        :param stu: 接收到的学生消息
+        """
 
-    def on_timer(self):
-        # 3-3.组织消息并发布
-        stu = Student()
-        stu.name = "李四"
-        stu.age = 21
-        stu.height = 1.7
-        self.publisher.publish(stu)
-        self.get_logger().info(f"发布的数据:{stu}")
+        # 3-2.解析并输出数据
+        self.get_logger().info(f"name={stu.name} age={stu.age} height={stu.height}")
 
 
-def main(args=None):
-    rclpy.init(args=args)
-    rclpy.spin(TalkerStu())
+def main():
+    rclpy.init()
+    rclpy.spin(ListenerStu())
     rclpy.shutdown()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

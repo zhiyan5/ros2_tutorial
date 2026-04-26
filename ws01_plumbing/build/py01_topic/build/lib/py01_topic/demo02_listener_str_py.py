@@ -21,7 +21,7 @@ class Listener(Node):
 
     def do_cb(self, msg):
         # 3-2. 解析并输出数据
-        self.get_logger().info("发布的数据: %s" % message.data)
+        self.get_logger().info("发布的数据: %s" % msg.data)
         
 def main():
     # 2. 初始化ROS2客户端
