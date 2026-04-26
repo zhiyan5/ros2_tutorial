@@ -18,12 +18,11 @@ from base_interfaces_demo.msg import Student
 # 3.定义节点类
 class TalkerStu(Node):
     def __init__(self):
-        super().__init__("talker_stu_node_py")
+        super().__init__("talkerstu_node_py")
+        self.count = 0
         self.get_logger().info("发布方创建了...")
-
         # 3-1.创建消息发布方
         self.publisher = self.create_publisher(Student, "chatter_stu", 10)
-
         # 3-2.创建定时器
         self.timer = self.create_timer(1.0, self.on_timer)
 
@@ -34,11 +33,13 @@ class TalkerStu(Node):
         stu.age = 21
         stu.height = 1.7
         self.publisher.publish(stu)
-        self.get_logger().info(f"发布的数据:{stu}")
+
+        self.count += 1
+        self.get_logger().info("学生信息：（%s,%d,%.2f)" % (stu.name, stu.age, stu.height))
 
 
-def main(args=None):
-    rclpy.init(args=args)
+def main():
+    rclpy.init()
     rclpy.spin(TalkerStu())
     rclpy.shutdown()
 
